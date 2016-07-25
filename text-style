@@ -1,0 +1,76 @@
+<html>
+
+	<head>
+	
+		<title>Webpage with Text Style</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet">
+		
+		<style type="text/css">
+		
+			p {
+			
+				font-family: 'Tillana', cursive;
+								
+			}
+		
+			a {
+			
+				text-decoration: none;
+			
+			}
+			
+			a:hover {
+			
+				text-decoration: underline;
+				color: blue;
+			
+			}
+			
+		
+			.bold {
+			
+				font-weight: bold;			
+			
+			}
+			
+			.italic {
+			
+				font-weight: italic;
+			
+			}
+		
+			.underlined {
+			
+				text-decoration: underline;
+			
+			}
+			
+			.big {
+			
+				font-size: 200%;
+			
+			
+			}
+			
+		</style>
+		
+		
+		
+	</head>
+	
+	<body>
+	
+		<p class="bold">This is some text!</p>
+		
+		<p class="italic">Here is some more! <span class="bold">And here is some bold and italic text!</span></p>
+		
+		<p class="underlined">This text is underlined</p>
+		
+		<a href="">This is a non-underlined link</a>
+	
+		<p class="big">This text is big</p>
+	
+	</body>
+	
+</html>
