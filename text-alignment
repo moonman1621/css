@@ -1,0 +1,76 @@
+<html>
+
+	<head>
+	
+	<title>Webpage with Text Alignment</title>
+	
+	<style type="text/css"> 
+	
+	p {
+	
+		text-align: right;
+	
+	}
+	
+	div {
+	
+		width: 300px;
+		height: 300px;
+		background-color: gold;
+	
+	}
+	
+	a {
+	
+		text-decoration: none;
+			
+	}
+	
+	a:hover {
+	
+		text-decoration: underline;
+	}
+	
+	a:visited {
+	
+	color: blue
+	
+	
+	}
+	
+	.center {
+	
+		text-align: center;
+		background-color: white;
+	
+	}
+	
+	.justified {
+	
+		text-align: justified;
+	
+	}
+	
+	</style>
+	
+	
+	</head>
+	
+	<body>
+		
+		<div>
+			
+			<p>This is some text!</p>
+			
+			<p class="center">Here is some more!</p>
+			
+			<p class="center"><a href="http://www.google.com">Click here for google!</a></p>
+			
+			<p class="center"><a href="http://www.google.com" target="_blank">Google in a new tab</a></p>
+			
+			<p class="justified">Lorem ipsum dolor sit amet, vitae etiam libero, lorem neque aenean integer ac, risus quis dolorem consectetuer, arcu wisi donec, proin tempus sit posuere eget. Nulla odio eros mauris, ligula dictum sit tellus et, quam nunc elit nisl quam justo, etiam nec sociis tellus metus nonummy urna, mauris donec eu ligula felis.
+.</p>
+		
+		</div>
+		
+	</body>
