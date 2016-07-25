@@ -1,0 +1,123 @@
+<html>
+
+	<head>
+
+		<title> Webpage with Style</title>
+	
+		<style type="text/css">
+		
+		.red {
+		
+		color:red;
+		
+				
+		}
+		
+		.large{
+		
+		font-size:200%;
+		
+		
+		}
+		
+		h1 {
+		
+		color:pink; 
+		
+		}
+		
+		.underlined {
+		
+		text-decoration:underline;
+		
+		
+		}
+		
+		 .green{
+		
+		color:green;
+		
+		}
+		
+		#first-section {
+			
+			color:#58ACFA;
+			background-color:pink;
+			width:300px;
+			height:300px;
+			position:relative;
+			padding: 50px 40px 30px 20px;
+			z-index: 3;
+			
+		}
+	
+		#yellow-background {
+		
+			background-color:yellow;
+			width:200px;
+			height:200px;
+			position:absolute;
+			left:110px;
+			top:110px;
+			margin:70px 50px 50px 50px; 
+			z-index: 6;
+			opacity: .55;
+			
+			
+		}
+		
+		
+		body {
+		
+			margin:0;
+			padding:0;
+		
+		}
+		
+		p {
+				
+			margin:0;
+			padding:0;
+		
+		}
+		
+		.clear-float {
+		
+			clear:both
+		
+		
+		}
+		
+		</style>
+	
+	</head>
+	
+	<body>
+	
+	
+	<div id="first-section">
+	
+		<p>Trying out CSS :)</p>
+	
+		<p>This text will be blue. <span class="underlined">And this text is underlined</span></p>
+		
+	</div>
+		
+	
+	<div id="yellow-background">
+	
+		<p class="large">Internal CSS rocks!</p>
+		<h1 class="red large">CSS is cool!</h1>
+
+	
+	</div>
+	
+		<div class="clear-float">	
+		
+		<p>This paragraph is not floated</p>
+
+	</div>
+
+	</body>
+	
+</html>
